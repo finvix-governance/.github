@@ -13,7 +13,8 @@
     bypassa el ruleset entero: la revisión NO es una puerta, es un rastro. Lo que la sustituye como
     control es que el plan esté publicado y que la deriva lo compruebe (`docs/plano-de-control.md`).
   • Merge = squash, único método permitido.
-  • Los labels los pone el bot a partir del commit; no los añadas a mano.
+  • Labels: los de avisos (`warn/*`) los pone quien revisa cuando aplican; el resto los pone Dependabot
+    o la automatización. Ningún proceso los lee para publicar.
   • Ninguna sección se borra: todas se llenan. Lo que no aplica se deja y se marca N/A —si el cambio
     no toca datos personales, la casilla de PII sigue ahí, marcada N/A—.
 -->
