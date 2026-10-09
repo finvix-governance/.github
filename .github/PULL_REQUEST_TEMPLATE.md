@@ -12,7 +12,8 @@
     abre la cuenta del dueño, que no puede aprobar lo suyo. Y quien escribe es `OrganizationAdmin` y
     bypassa el ruleset entero: la revisión NO es una puerta, es un rastro. Lo que la sustituye como
     control es que el plan esté publicado y que la deriva lo compruebe (`docs/plano-de-control.md`).
-  • Merge = squash, único método permitido.
+  • Merge = merge commit, único método que el ruleset admite. El ruleset no exige la rama al día con
+    `master`: se actualiza antes de mergear, para que el plan publicado sea el del árbol que entra.
   • Labels: los de avisos (`warn/*`) los pone quien revisa cuando aplican; el resto los pone Dependabot
     o la automatización. Ningún proceso los lee para publicar.
   • Ninguna sección se borra: todas se llenan. Lo que no aplica se deja y se marca N/A —si el cambio
@@ -111,4 +112,5 @@ qué el cambio lo vale.
 
 > ✅ **Listo para revisión.** Revisor: **@finvix-governance/leads** vía CODEOWNERS.
 > ⚠️ Recuerda que la revisión aquí **no bloquea a quien escribe** — el control real es el plan de
-> arriba y la deriva semanal. Merge por **squash**, contra **`master`**, que es la única rama.
+> arriba y la deriva semanal. Merge con **merge commit** y la rama al día, contra **`master`**, que
+> es la única rama.
