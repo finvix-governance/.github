@@ -16,8 +16,7 @@
     `master`: se actualiza antes de mergear, para que el plan publicado sea el del árbol que entra.
   • Labels: los de avisos (`warn/*`) los pone quien revisa cuando aplican; el resto los pone Dependabot
     o la automatización. Ningún proceso los lee para publicar.
-  • Ninguna sección se borra: todas se llenan. Lo que no aplica se deja y se marca N/A —si el cambio
-    no toca datos personales, la casilla de PII sigue ahí, marcada N/A—.
+  • Ninguna sección se borra: todas se llenan. Lo que no aplica se deja y se marca N/A.
 -->
 <!-- markdownlint-disable-file MD041 -->
 
