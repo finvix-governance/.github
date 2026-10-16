@@ -24,10 +24,9 @@
 
 - **Referencia**: `#<n>`, el issue de este repositorio — `Closes #<n>` si este PR lo resuelve,
   `Ref #<n>` + por qué sigue abierto si no. `PEG-XXX` si además hay ticket de Jira.
-- [ ] 🎫 **N/A** — este cambio no tiene issue: lo levanta la propia gobernanza
 
 > 🔒 Rastrear no es opcional; el rastreador, sí. La clave `PEG` es **convención, no candado** —ningún
-> ruleset la exige— y en estos tres repos el rastro vive en el
+> ruleset la exige— y en estos repos el rastro vive en el
 > buzón de Issues, no en el board.
 
 ## 📖 Qué cambia y por qué
@@ -49,6 +48,7 @@
 ```text
 <!-- aquí -->
 ```
+
 </details>
 
 - **Cifra exacta**: `_ to add, _ to change, _ to destroy`
@@ -70,13 +70,13 @@ Si alguno aparece en el plan, **no se aplica** y el PR no se mergea:
 > 🔒 Sin las cinco, el cambio no se mergea. Si el cambio es solo documentación, la
 > línea base y la meta son el estado del documento: qué decía que era falso y qué dice ahora.
 
-| | |
-|---|---|
-| **Línea base** | <!-- el número de ANTES, medido --> |
-| **Meta** | <!-- el número de DESPUÉS --> |
-| **Comando de comprobación** | <!-- el que cualquiera puede correr para verificarlo --> |
-| **Criterio de fallo** | <!-- qué resultado significa que salió mal --> |
-| **Coste** | escrituras **ajenas**: `_` · propias: `_` · llamadas a la API: `_` · minutos de CI: `_` |
+|                             |                                                                                         |
+| --------------------------- | --------------------------------------------------------------------------------------- |
+| **Línea base**              | <!-- el número de ANTES, medido -->                                                     |
+| **Meta**                    | <!-- el número de DESPUÉS -->                                                           |
+| **Comando de comprobación** | <!-- el que cualquiera puede correr para verificarlo -->                                |
+| **Criterio de fallo**       | <!-- qué resultado significa que salió mal -->                                          |
+| **Coste**                   | escrituras **ajenas**: `_` · propias: `_` · llamadas a la API: `_` · minutos de CI: `_` |
 
 ⚠️ **Las escrituras ajenas se cuentan aparte y a propósito.** Un commit dentro del repo de otro
 equipo es lo único nuestro que ese equipo lee sin haberlo pedido. Si el número no es 0, justifica por
