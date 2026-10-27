@@ -61,8 +61,6 @@ Si alguno aparece en el plan, **no se aplica** y el PR no se mergea:
 
 - [ ] `github_repository_environment` en **destroy** o **replace** — guarda la única copia de sus
       secrets, y GitHub los destruye con él. **Irreversible.**
-- [ ] `github_repository_file.semilla` con el `content` **cambiado** — su contenido es del repo destino, no
-      de `canonical/`. Se lee del plan en JSON, no del resumen.
 - [ ] Cualquier destructivo que el plan **no había predicho**.
 
 ## 📐 Las cinco medidas
