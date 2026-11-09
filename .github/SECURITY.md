@@ -1,3 +1,8 @@
+<!--
+  Applies only to public repositories. The report comes from someone outside the organization,
+  and a public issue would disclose the vulnerability before the fix.
+-->
+
 # Security Policy
 
 ## Reporting a vulnerability
