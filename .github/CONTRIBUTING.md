@@ -1,3 +1,8 @@
+<!--
+  Solo vale para repositorios públicos. El reporte llega de alguien externo y un issue público
+  divulgaría la vulnerabilidad antes del arreglo.
+-->
+
 # Contribuir
 
 Gracias por querer contribuir. Esta guía reúne lo mínimo para que tu aporte se revise con rapidez.
